@@ -3,31 +3,34 @@ libgnomeuimm26
 Official C++ bindings for libgnomeui-2.
 
 Runtime requirements:
-  cygwin-1.5.21-2
-  gconfmm26-2.16.0-1
-  gnome-vfsmm26-2.16.0-1
-  gtkmm24-2.10.3-1
+  cygwin-1.5.24-2
+  gconfmm26-2.18.0-1
+  glib2-2.12.12-2
+  glibmm24-2.12.10-1
+  gnome-vfsmm26-2.18.0-1
+  gtk2-x11-2.10.13-1
+  gtkmm24-2.10.10-1
   libgnomecanvas2-2.14.0-1
   libgnomecanvasmm26-2.16.0-1
-  libgnomemm26-2.16.0-1
-  libgnomeui2-2.16.0-1
+  libgnomemm26-2.18.0-1
+  libgnomeui2-2.18.1-1
   libsigc++20-2.0.17-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.21-2
-  autoconf2.5-2.60-1
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
   automake1.9-1.9.6-1
   binutils-20060817-1
-  cygport-0.2.6-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  gcc-g++-3.4.4-1
-  libtool1.5-1.5.23a-1
-  m4-1.4.7-1
+  cygport-0.3.1-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  libtool1.5-1.5.23a-2
+  m4-1.4.9-1
   make-3.81-1
   pkg-config-0.21-1
-  sed-4.1.5-1
+  sed-4.1.5-2
 
 Canonical homepage:
   http://www.gtkmm.org/
@@ -38,30 +41,30 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libgnomeuimm26-2.16.0-1-src.tar.bz2
+  unpack libgnomeuimm26-2.18.0-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libgnomeuimm26-2.16.0-1.sh all
+  cygport ./libgnomeuimm26-2.18.0-1.sh all
 
 This will create:
-  /usr/src/libgnomeuimm26-2.16.0-1-src.tar.bz2
-  /usr/src/libgnomeuimm26-2.16.0-1.tar.bz2
-  /usr/src/libgnomeuimm26-2.16.0-1.tar.bz2
+  /usr/src/libgnomeuimm26-2.18.0-1-src.tar.bz2
+  /usr/src/libgnomeuimm26-2.18.0-1.tar.bz2
+  /usr/src/libgnomeuimm26-2.18.0-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the main package:
 
   /usr/bin/cyggnomeuimm-2.6-1.dll
-  /usr/share/doc/Cygwin/libgnomeuimm26-2.16.0.README
-  /usr/share/doc/libgnomeuimm26-2.16.0/AUTHORS
-  /usr/share/doc/libgnomeuimm26-2.16.0/ChangeLog
-  /usr/share/doc/libgnomeuimm26-2.16.0/COPYING
-  /usr/share/doc/libgnomeuimm26-2.16.0/INSTALL
-  /usr/share/doc/libgnomeuimm26-2.16.0/NEWS
-  /usr/share/doc/libgnomeuimm26-2.16.0/README
-  /usr/share/doc/libgnomeuimm26-2.16.0/TODO
+  /usr/share/doc/Cygwin/libgnomeuimm26-2.18.0.README
+  /usr/share/doc/libgnomeuimm26-2.18.0/AUTHORS
+  /usr/share/doc/libgnomeuimm26-2.18.0/ChangeLog
+  /usr/share/doc/libgnomeuimm26-2.18.0/COPYING
+  /usr/share/doc/libgnomeuimm26-2.18.0/INSTALL
+  /usr/share/doc/libgnomeuimm26-2.18.0/NEWS
+  /usr/share/doc/libgnomeuimm26-2.18.0/README
+  /usr/share/doc/libgnomeuimm26-2.18.0/TODO
 
 Files included in the devel package:
 
@@ -127,6 +130,9 @@ Files included in the devel package:
 --------------------
 
 Port Notes:
+
+----- version 2.18.0-1 -----
+Version bump for GNOME 2.18.
 
 ----- version 2.16.0-1 -----
 Version bump for GNOME 2.16.
