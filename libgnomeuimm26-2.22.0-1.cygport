@@ -1,0 +1,6 @@
+inherit gtkmm
+
+PKG_NAMES="${PN} ${PN}-devel"
+PKG_HINTS="setup devel"
+PKG_CONTENTS[0]='usr/bin/ usr/share/doc/'
+PKG_CONTENTS[1]='usr/include/ usr/lib/'
