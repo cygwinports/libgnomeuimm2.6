@@ -1,5 +1,0 @@
-category: Gnome
-requires: cygwin libgnomeuimm26 gconfmm26-devel glibmm24-devel gnome-vfsmm26-devel gtkmm24-devel libgnomemm26-devel libgnomecanvasmm26-devel libgnomeui2-devel libsigc++20-devel
-external-source: libgnomeuimm26
-sdesc: "C++ bindings for libgnomeui-2 (development)"
-ldesc: "Official C++ bindings for libgnomeui-2"

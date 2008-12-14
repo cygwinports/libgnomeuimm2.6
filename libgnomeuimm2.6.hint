@@ -1,0 +1,3 @@
+category: Gnome
+sdesc: "C++ bindings for libgnomeui-2 (sources)"
+ldesc: "Official C++ bindings for libgnomeui-2"

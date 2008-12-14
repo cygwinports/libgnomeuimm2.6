@@ -1,33 +1,34 @@
-libgnomeuimm26
+libgnomeuimm2.6
 -------------------------------------------
 Official C++ bindings for libgnomeui-2.
 
 Runtime requirements:
-  cygwin-1.5.25-11
-  gconfmm26-2.22.0-1
-  glib2-2.16.3-1
-  glibmm24-2.16.2-1
-  gnome-vfsmm26-2.22.0-1
-  gtk2-x11-2.12.9-1
-  gtkmm24-2.12.7-1
-  libgnomecanvas2-2.20.1.1-1
-  libgnomecanvasmm26-2.22.0-1
-  libgnomemm26-2.22.0-1
-  libgnomeui2-2.22.1-1
-  libsigc++20-2.2.2-1
+  cygwin-1.5.25-15
+  libatkmm1.6_1-2.14.3-1
+  libgconfmm2.6_1-2.24.0-1
+  libglib2.0_0-2.18.3-1
+  libglibmm2.4_1-2.18.1-1
+  libgnomecanvas2_0-2.20.1.1-2
+  libgnomecanvasmm2.6_1-2.23.1-1
+  libgnomemm2.6_1-2.24.0-1
+  libgnomeui2_0-2.24.0-1
+  libgnomevfsmm2.6_1-2.24.0-1
+  libgtk2.0_0-2.14.5-1
+  libgtkmm2.4_1-2.14.3-1
+  libsigc2.0_0-2.2.3-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
-  binutils-20080523-1
-  cygport-0.3.11-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.3-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
-  libtool-2.2.2-2
+  libtool-2.2.6a-1
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
   sed-4.1.5-2
 
 Canonical homepage:
@@ -39,32 +40,32 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libgnomeuimm26-2.22.0-1-src.tar.bz2
+  unpack libgnomeuimm2.6-2.24.0-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libgnomeuimm26-2.22.0-1.cygport all
+  cygport ./libgnomeuimm2.6-2.24.0-1.cygport all
 
 This will create:
-  /usr/src/libgnomeuimm26-2.22.0-1-src.tar.bz2
-  /usr/src/libgnomeuimm26-2.22.0-1.tar.bz2
-  /usr/src/libgnomeuimm26-2.22.0-1.tar.bz2
+  /usr/src/libgnomeuimm2.6-2.24.0-1-src.tar.bz2
+  /usr/src/libgnomeuimm2.6-devel-2.24.0-1.tar.bz2
+  /usr/src/libgnomeuimm2.6_1-2.24.0-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
-(libgnomeuimm26)
+(libgnomeuimm2.6_1)
   /usr/bin/cyggnomeuimm-2.6-1.dll
-  /usr/share/doc/libgnomeuimm26-2.22.0/AUTHORS
-  /usr/share/doc/libgnomeuimm26-2.22.0/ChangeLog
-  /usr/share/doc/libgnomeuimm26-2.22.0/COPYING
-  /usr/share/doc/libgnomeuimm26-2.22.0/INSTALL
-  /usr/share/doc/libgnomeuimm26-2.22.0/NEWS
-  /usr/share/doc/libgnomeuimm26-2.22.0/README
-  /usr/share/doc/libgnomeuimm26-2.22.0/TODO
+  /usr/share/doc/libgnomeuimm2.6-2.24.0/AUTHORS
+  /usr/share/doc/libgnomeuimm2.6-2.24.0/COPYING
+  /usr/share/doc/libgnomeuimm2.6-2.24.0/ChangeLog
+  /usr/share/doc/libgnomeuimm2.6-2.24.0/INSTALL
+  /usr/share/doc/libgnomeuimm2.6-2.24.0/NEWS
+  /usr/share/doc/libgnomeuimm2.6-2.24.0/TODO
 
-(libgnomeuimm26-devel)
+(libgnomeuimm2.6-devel)
+  /usr/include/libgnomeuimm-2.6/libgnomeuimm.h
   /usr/include/libgnomeuimm-2.6/libgnomeuimm/about.h
   /usr/include/libgnomeuimm-2.6/libgnomeuimm/app-callback.h
   /usr/include/libgnomeuimm-2.6/libgnomeuimm/app-helper.h
@@ -89,8 +90,8 @@ Files included in the binary packages:
   /usr/include/libgnomeuimm-2.6/libgnomeuimm/init.h
   /usr/include/libgnomeuimm-2.6/libgnomeuimm/pixmap-entry.h
   /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/about_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/appbar_p.h
   /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/app_p.h
+  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/appbar_p.h
   /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/client_p.h
   /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/color-picker_p.h
   /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/dateedit_p.h
@@ -116,17 +117,19 @@ Files included in the binary packages:
   /usr/include/libgnomeuimm-2.6/libgnomeuimm/ui-items-icon.h
   /usr/include/libgnomeuimm-2.6/libgnomeuimm/ui-items-stock.h
   /usr/include/libgnomeuimm-2.6/libgnomeuimm/wrap_init.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm.h
+  /usr/lib/libgnomeuimm-2.6.dll.a
+  /usr/lib/libgnomeuimm-2.6.la
   /usr/lib/libgnomeuimm-2.6/include/libgnomeuimmconfig.h
   /usr/lib/libgnomeuimm-2.6/proc/m4/convert.m4
   /usr/lib/libgnomeuimm-2.6/proc/m4/convert_libgnomeuimm.m4
-  /usr/lib/libgnomeuimm-2.6.dll.a
-  /usr/lib/libgnomeuimm-2.6.la
   /usr/lib/pkgconfig/libgnomeuimm-2.6.pc
 
 --------------------
 
 Port Notes:
+
+----- version 2.24.0-1 -----
+Version bump for GNOME 2.24.
 
 ----- version 2.22.0-1 -----
 Version bump for GNOME 2.22.

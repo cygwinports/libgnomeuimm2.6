@@ -1,0 +1,5 @@
+inherit gtkmm
+
+PKG_NAMES="${PN} ${PN}_1 ${PN}-devel"
+libgnomeuimm2_6_1_CONTENTS="usr/bin/*-2.6-1.dll usr/share/doc/"
+libgnomeuimm2_6_devel_CONTENTS='usr/include/ usr/lib/'
