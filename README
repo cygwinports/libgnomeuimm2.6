@@ -3,34 +3,35 @@ libgnomeuimm2.6
 Official C++ bindings for libgnomeui-2.
 
 Runtime requirements:
-  cygwin-1.7.0-44
-  libatkmm1.6_1-2.16.0-1
-  libgcc1-4.3.2-2
-  libgconfmm2.6_1-2.26.0-1
-  libglib2.0_0-2.20.0-1
-  libglibmm2.4_1-2.2.0-1
+  cygwin-1.7.0-62
+  libatkmm1.6_1-2.18.2-1
+  libgcc1-4.3.4-1
+  libgconfmm2.6_1-2.28.0-1
+  libglib2.0_0-2.22.2-1
+  libglibmm2.4_1-2.22.1-1
   libgnomecanvas2_0-2.26.0-1
   libgnomecanvasmm2.6_1-2.26.0-1
-  libgnomemm2.6_1-2.26.0-1
-  libgnomeui2_0-2.24.1-1
+  libgnomemm2.6_1-2.28.0-1
+  libgnomeui2_0-2.24.2-1
   libgnomevfsmm2.6_1-2.26.0-1
-  libgtk2.0_0-2.16.0-1
-  libgtkmm2.4_1-2.16.0-1
-  libsigc2.0_0-2.2.3-10
-  libstdc++6-4.3.2-2
+  libgtk2.0_0-2.18.3-1
+  libgtkmm2.4_1-2.18.2-1
+  libsigc2.0_0-2.2.4.2-1
+  libstdc++6-4.3.4-1
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-10
-  automake1.10-1.10.1-10
-  binutils-20080624-2
-  cygport-0.9.6-1
-  gawk-3.1.6-2
-  gcc4-core-4.3.2-2
-  gcc4-g++-4.3.2-2
-  libtool-2.2.6a-2
+  automake1.11-1.11-10
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
+  gcc4-g++-4.3.4-1
+  libtool-2.2.7a-14
   make-3.81-2
-  pkg-config-0.23a-2
+  mm-common-0.8-1
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical homepage:
@@ -42,92 +43,23 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libgnomeuimm2.6-2.26.0-1-src.tar.bz2
+  unpack libgnomeuimm2.6-2.28.0-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libgnomeuimm2.6-2.26.0-1.cygport all
+  cygport ./libgnomeuimm2.6-2.28.0-1.cygport all
 
 This will create:
-  /usr/src/libgnomeuimm2.6-2.26.0-1-src.tar.bz2
-  /usr/src/libgnomeuimm2.6-devel-2.26.0-1.tar.bz2
-  /usr/src/libgnomeuimm2.6_1-2.26.0-1.tar.bz2
+  /usr/src/libgnomeuimm2.6-2.28.0-1-src.tar.bz2
+  /usr/src/libgnomeuimm2.6-devel-2.28.0-1.tar.bz2
+  /usr/src/libgnomeuimm2.6_1-2.28.0-1.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary packages:
-
-(libgnomeuimm2.6_1)
-  /usr/bin/cyggnomeuimm-2.6-1.dll
-  /usr/share/doc/libgnomeuimm2.6/AUTHORS
-  /usr/share/doc/libgnomeuimm2.6/COPYING
-  /usr/share/doc/libgnomeuimm2.6/ChangeLog
-  /usr/share/doc/libgnomeuimm2.6/NEWS
-  /usr/share/doc/libgnomeuimm2.6/TODO
-
-(libgnomeuimm2.6-devel)
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/about.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/app-callback.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/app-helper.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/app.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/appbar.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/client.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/color-picker.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/dateedit.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/druid-page-edge.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/druid-page-standard.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/druid-page.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/druid.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/entry.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/file-entry.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/font-picker.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/href.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/icon-entry.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/icon-list.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/icon-lookup.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/icon-sel.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/icon-textitem.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/init.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/pixmap-entry.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/about_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/app_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/appbar_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/client_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/color-picker_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/dateedit_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/druid-page-edge_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/druid-page-standard_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/druid-page_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/druid_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/entry_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/file-entry_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/font-picker_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/href_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/icon-entry_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/icon-list_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/icon-lookup_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/icon-sel_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/icon-textitem_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/pixmap-entry_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/private/thumbnail_p.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/stock.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/thumbnail.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/types.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/ui-items-derived.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/ui-items-icon.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/ui-items-stock.h
-  /usr/include/libgnomeuimm-2.6/libgnomeuimm/wrap_init.h
-  /usr/lib/libgnomeuimm-2.6.dll.a
-  /usr/lib/libgnomeuimm-2.6.la
-  /usr/lib/libgnomeuimm-2.6/include/libgnomeuimmconfig.h
-  /usr/lib/libgnomeuimm-2.6/proc/m4/convert.m4
-  /usr/lib/libgnomeuimm-2.6/proc/m4/convert_libgnomeuimm.m4
-  /usr/lib/pkgconfig/libgnomeuimm-2.6.pc
-
---------------------
-
 Port Notes:
+
+----- version 2.28.0-1 -----
+Version bump for GNOME 2.28.
 
 ----- version 2.26.0-1 -----
 Initial release of GNOME 2.26 for Cygwin 1.7.
