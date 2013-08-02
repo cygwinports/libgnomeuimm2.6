@@ -1,5 +1,0 @@
-category: Gnome
-requires: libgnomeuimm2.6_1 libatkmm1.6-devel libgconfmm2.6-devel libglib2.0-devel libglibmm2.4-devel libgnomecanvas2-devel libgnomecanvasmm2.6-devel libgnomemm2.6-devel libgnomeui2-devel libgnomevfsmm2.6-devel libgtk2.0-devel libgtkmm2.4-devel libsigc2.0-devel libstdc++6-devel
-external-source: libgnomeuimm2.6
-sdesc: "C++ bindings for libgnomeui-2 (development)"
-ldesc: "Official C++ bindings for libgnomeui-2"
